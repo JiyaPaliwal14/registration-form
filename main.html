@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form action="actionPage.html" target="_blank" name="Registration form">
+            <label>Enter your name: </label>
+            <input type="text" name="name" size="50"><br>
+            <label>Enter registration number: </label>
+            <input type="text" name="registration number" size="9"><br>
+            <label>Enter your email id: </label>
+            <input type="email" name="email"><br>
+            <label>Enter your date of birth:</label>
+            <input type="date" name="d.o.b."><br>
+            
+            
+            <label>Select your course: </label>
+            <select>
+                <option value="--select--">--select--</option>
+                <option value="Btech CSE core">Btech CSE core</option>
+                <option value="Btech CSE with specialisation">Btech CSE with specialisation</option>
+                <option value="Mtech">Mtech</option>
+                <option value="BArch">BArch</option>
+                <option value="MSc">MSc</option>
+                <option value="BSc">BSc</option>
+                <option value="MBA">MBA</option>
+            </select>
+            <br>
+
+            <label>Which programming languages do you know ?</label><br>
+            <input type="checkbox" id="Python" name="Python">
+            <label for="Python">Python</label><br>
+            <input type="checkbox" id="C" name="C">
+            <label for="C">C</label><br>
+            <input type="checkbox" id="C++" name="C++">
+            <label for="C++">C++</label><br>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">html</label><br>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">css</label><br>
+            <input type="checkbox" id="JavaScript" name="JavaScript">
+            <label for="JavaScript">JavaScript</label><br>
+            
+            <label>Which technical domain do you want to join</label><br>
+            <input type="radio" id="Web Dev" name="domain_pref" value="Web Dev">
+            <label for="Web Dev">Web Dev</label><br>
+            <input type="radio" id="App Dev" name="domain_pref" value="App Dev">
+            <label for="App Dev">App Dev</label><br>
+            <input type="radio" id="Dev ops" name="domain_pref" value="Dev ops">
+            <label for="Dev ops">Dev ops</label><br>
+            <input type="radio" id="Design" name="domain_pref" value="Design">
+            <label for="Design">Design</label><br>
+
+            <label>Write us a message:</label>
+            <textarea name="message" rows="10" columns="50"></textarea> <br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
